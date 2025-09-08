@@ -7,7 +7,7 @@
 body {
     display: grid;
     place-content: center;
-    background: url(./src/cartoon.jpg);
+    background: url(cartoon.jpg);
     background-size: cover;
  background-position: center;
 }
@@ -73,4 +73,5 @@ body {
 
 .fa-paper-plane {
     color: white;
+
 }
