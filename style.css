@@ -1,0 +1,76 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: grid;
+    place-content: center;
+    background: url(./src/cartoon.jpg);
+    background-size: cover;
+ background-position: center;
+}
+
+.chatbot {
+    width: 350px;
+    background-color: beige;
+    margin: auto;
+    border-radius: 15px;
+    overflow: hidden;
+    
+}
+
+.chatbot .chatbox {
+   height: 450px;
+   overflow-y: auto;
+}
+
+.chatbot header {
+   padding: 10px;
+   text-align: center;
+   background-color: brown;
+}
+
+.chatbot header h2 {
+    color: white;
+}
+
+.chat {
+    display: flex;
+    align-items: center;
+}
+
+.chatbox .chat p {
+    color: white;
+    background-color: blueviolet;
+    padding: 10px 13px;
+    font-size: 0.95rem;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.chatbox .outgoing {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 10px;
+}
+
+.chat-input {
+   padding: 10px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 1rem;
+}
+
+.chat-input input {
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    font-size: 1rem;
+}
+
+.fa-paper-plane {
+    color: white;
+}
